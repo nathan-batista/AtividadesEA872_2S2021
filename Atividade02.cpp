@@ -116,10 +116,12 @@ float Equacoes::posicaoCritico(int n,float T){
     cout << "Valor de A: " << coefA << endl;
     cout << "Valor de B: " << coefB << endl;
     xAtual = coefA;
-    float vAtual;
+    float vAtual = coefB;
+    float valorB = coefB * T * exp(alpha*T);
     for(int i=0;i<n;i++){
-        xAtual +=  vAtual*T;
-        vAtual += exp(alpha*T)*(coefA*alpha + coefB*alpha*T + coefB);
+        // vAtual = exp(alpha*T)*vAtual;
+        xAtual =  exp(alpha*T)*xAtual + valorB;
+        valorB = valorB*exp(alpha*T);
         
         // exp(alpha*T)*(coefA*alpha + coefB*alpha*T + coefB)*T;
         // coefA*exp(alpha*T) + coefB*T*exp(alpha*T);
