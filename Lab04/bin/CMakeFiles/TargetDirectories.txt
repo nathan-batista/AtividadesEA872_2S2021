@@ -1,0 +1,6 @@
+/home/nathan/Área de Trabalho/Lab04/bin/CMakeFiles/rebuild_cache.dir
+/home/nathan/Área de Trabalho/Lab04/bin/CMakeFiles/View.dir
+/home/nathan/Área de Trabalho/Lab04/bin/CMakeFiles/edit_cache.dir
+/home/nathan/Área de Trabalho/Lab04/bin/CMakeFiles/Controller.dir
+/home/nathan/Área de Trabalho/Lab04/bin/CMakeFiles/Model.dir
+/home/nathan/Área de Trabalho/Lab04/bin/CMakeFiles/Asteroids.dir
